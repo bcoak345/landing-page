@@ -198,15 +198,14 @@ button:hover {
     justify-content: center;
   }
   .quote-container {
-    width: 80vw;
+    width: 60vw;
     margin: 50px 0 50px 50px;
   }
   .contact-container {
     width: 75vw;
-    flex-wrap: wrap;
   }
-  .social {
-    flex-shrink: 0;
+  .video {
+    width: 70vw;
   }
 
 }
