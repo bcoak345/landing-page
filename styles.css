@@ -6,9 +6,12 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-.header {
+button:hover {
+    cursor: pointer;
+}
+#home {
     background-color: #1f2937;
-    height: 50vh;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +48,6 @@
     flex-direction: column;
     gap: 10px;
 }
-iframe {
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.048);
-}
 .sub-button {
     padding: 5px 12px;
     background-color: #FF0000;
@@ -55,4 +55,87 @@ iframe {
     border-radius: 5px;
     font-weight: 700;
     border: none;
+}
+#about h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
+}
+.images {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.img-desc {
+    font-weight: 500;
+}
+.ash-twitch {
+    color: #6441a5;
+}
+#about {
+    height: max-content;
+    padding-bottom: 50px;
+}
+#quotes {
+    height: 400px;
+    background-color: #e5e7eb;
+}
+.quote-container {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: flex-end;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+    position: relative;
+    display: inline;
+}
+.quote:before {
+    position: absolute;
+    content: open-quote;
+    font-size: 2em;
+    margin-left: -.65em;
+    margin-top: -.25em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f2937;
+  }
+  .quote:after {
+    position: absolute;
+    content: close-quote;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f2937;
+    margin-top: 5px;
+  }
+.author {
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
