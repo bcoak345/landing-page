@@ -200,12 +200,13 @@ button:hover {
   .quote-container {
     width: 60vw;
     margin: 50px 0 50px 50px;
+    align-items: flex-start;
   }
   .contact-container {
-    width: 75vw;
+    width: 90vw;
   }
   .video {
-    width: 70vw;
+    width: 80vw;
   }
 
 }
